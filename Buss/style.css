@@ -1,0 +1,183 @@
+body {
+    font-family: CentroSansPro,sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  color: #272727
+}
+.back {
+  height: 100vh;
+  width: 100vw;
+}
+.header {
+    flex-shrink: 0;
+  position: relative;
+  top: 0;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 95px;
+  width: 100%;
+  background: #fff;
+  z-index: 102;
+  box-shadow: 0 4px 10px 0 rgba(54,17,0,.1);
+}
+#logo {
+    flex-shrink: 0;
+  width: 91px;
+  height: 45px;
+  margin-left: 35px;
+}
+.main{
+  text-align: center;
+}
+.Buymenu-content {
+  background: url('https://webcms.tpilet.ee/static/taustapilt.jpg') center/cover no-repeat fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.menu {
+  background-color: #fff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 35px 0 rgba(0, 0, 0, 06);
+  white-space: nowrap;
+}
+.searchmenu {
+  border: transparent;
+  border-bottom: 1px solid #9b9b9b;
+}
+.oneway{
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 45px;
+  text-align: center;
+  color: #ff5000;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: transparent;
+  border-bottom: 2px solid #ff5000;
+}
+.twoway{
+  background-color: #fff;
+  border: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  line-height: 45px;
+  text-align: left;
+  color: #9b9b9b;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+}
+.searchmenu
+.search{
+  outline: none;
+}
+.search input{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  border-right: transparent;
+  border-top: transparent;
+  border-left: transparent;
+  padding: 15px;
+  height: 30px;
+  width: 370px;
+  text-align: left;
+  outline: none;
+  margin: none;
+  font-size: 14px;
+}
+.date{
+  box-sizing: border-box;
+  width: 100%;
+  height: 54px;
+  font-size: 14px;
+  font-family: CentroSansPro, sans-serif;
+  color: #9b9b9b;
+  border: transparent;
+  border-bottom: 1px solid #9b9b9b;
+}
+.head2 {
+  font-size: 16px;
+}
+.popdest {
+  display: flex;
+  flex-direction: column;
+}
+.places{
+  display: flex;
+  justify-content: space-around;
+  font-size: 12px;
+  color: #9b9b9b;
+}
+.title2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+.find{
+  display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    background-color: rgb(252, 135, 51);
+    border-radius: 5px;
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.button-contain {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  padding: 30px;
+  max-width: 340px;
+  margin: 0 auto;
+}
+.menus{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.selected-button{
+  color: #ff5000;
+  font-size: large;
+  padding: 20px;
+  font-weight: 600;
+  flex-flow: row;
+  border: none;
+  background-color: white;
+  border-bottom: solid 2px #ff5000;
+}
+.hbuttons {
+  font-size: large;
+  padding: 20px;
+  flex-flow: row;
+  background-color: white;
+  color: #9b9b9b;
+}
+.hcontacts {
+  font-size: large;
+  padding: 20px;
+  padding-left: 40px;
+  flex-flow: row;
+  background-color: white;
+  color: #9b9b9b;
+}
